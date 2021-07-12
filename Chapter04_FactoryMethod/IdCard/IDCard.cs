@@ -6,16 +6,18 @@ namespace Chapter04_FactoryMethod.IdCard
     public class IDCard : Product
     {
         public string _owner { get; }
+        public int _serial;
 
-        public IDCard(string owner)
+        public IDCard(string owner, int serial)
         {
-            Console.WriteLine(owner + "のカードを作ります。");
+            Console.WriteLine(owner + "(" + serial + ")のカードを作ります。");
             _owner = owner;
+            _serial = serial;
         }
 
         public override void Use()
         {
-            Console.WriteLine(_owner + "のカードを使います。");
+            Console.WriteLine(_owner + "(" + _serial + ")のカードを使います。");
         }
     }
 }

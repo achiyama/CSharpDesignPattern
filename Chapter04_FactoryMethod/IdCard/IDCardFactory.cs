@@ -5,21 +5,22 @@ namespace Chapter04_FactoryMethod.IdCard
 {
     class IDCardFactory : Factory
     {
-        public List<string> owners { get; }
+        public Dictionary<string, int> owners { get; }
+        public int Serial { get; set; } = 100;
 
         public IDCardFactory()
         {
-            owners = new List<string>();
+            owners = new Dictionary<string, int>();
         }
 
         protected override Product CreateProduct(string owner)
         {
-            return new IDCard(owner);
+            return new IDCard(owner, Serial++);
         }
 
         protected override void RegisterProduct(Product product)
         {
-            owners.Add(((IDCard)product)._owner);
+            owners.Add(((IDCard)product)._owner, Serial);
         }
     }
 }
