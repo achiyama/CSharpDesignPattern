@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter07_Builder
+﻿namespace Chapter07_Builder
 {
     /// <summary>
     /// 一つの文章を作るクラス

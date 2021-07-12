@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter07_Builder
+﻿namespace Chapter07_Builder
 {
     /// <summary>
     /// 文章を構成するためのメソッドを定めた抽象クラス
