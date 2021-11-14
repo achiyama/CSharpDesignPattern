@@ -18,10 +18,8 @@ namespace Chapter07_Builder
 
             try
             {
-                using (var _sw = new StreamWriter(_fileName, false, Encoding.UTF8))
-                {
-                    _sw.WriteLine("<html><head><title>" + title + "</title></head><body>");
-                }
+                using var _sw = new StreamWriter(_fileName, false, Encoding.UTF8);
+                _sw.WriteLine("<html><head><title>" + title + "</title></head><body>");
             }
             catch (Exception e)
             {

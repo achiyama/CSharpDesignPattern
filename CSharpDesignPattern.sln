@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03_TemplateMethod", "Chapter03_TemplateMethod\Chapter03_TemplateMethod.csproj", "{C43807D7-097F-4721-B357-14E45FD5EEE7}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter05_Singleton", "Chap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter07_Builder", "Chapter07_Builder\Chapter07_Builder.csproj", "{39A1C9E4-3652-44F1-BBBE-527D80E25058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter15_Facade", "Chapter15_Facade\Chapter15_Facade.csproj", "{3DF53F07-94CA-4726-9BD8-839503B905A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter15_Facade", "Chapter15_Facade\Chapter15_Facade.csproj", "{3DF53F07-94CA-4726-9BD8-839503B905A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09_Bridge", "Chapter09_Bridge\Chapter09_Bridge.csproj", "{1D173C4D-58EE-43A6-957C-5E8C86C17008}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3DF53F07-94CA-4726-9BD8-839503B905A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF53F07-94CA-4726-9BD8-839503B905A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF53F07-94CA-4726-9BD8-839503B905A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
