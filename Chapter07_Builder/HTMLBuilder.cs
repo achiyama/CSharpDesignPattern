@@ -18,15 +18,15 @@ namespace Chapter07_Builder
 
             try
             {
-                _sw = new StreamWriter(_fileName, false, Encoding.UTF8);
+                using (var _sw = new StreamWriter(_fileName, false, Encoding.UTF8))
+                {
+                    _sw.WriteLine("<html><head><title>" + title + "</title></head><body>");
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.StackTrace);
-                _sw.Dispose();
             }
-
-            _sw.WriteLine("<html><head><title>" + title + "</title></head><body>");
         }
 
         public void MakeString(string str)
