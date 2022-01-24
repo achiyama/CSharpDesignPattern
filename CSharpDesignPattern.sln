@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter07_Builder", "Chapte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter15_Facade", "Chapter15_Facade\Chapter15_Facade.csproj", "{3DF53F07-94CA-4726-9BD8-839503B905A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09_Bridge", "Chapter09_Bridge\Chapter09_Bridge.csproj", "{1D173C4D-58EE-43A6-957C-5E8C86C17008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter09_Bridge", "Chapter09_Bridge\Chapter09_Bridge.csproj", "{1D173C4D-58EE-43A6-957C-5E8C86C17008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter17_Decorator", "Chapter17_Decorator\Chapter17_Decorator.csproj", "{1B06493C-FA0B-499F-BFA4-0ACC2875492D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D173C4D-58EE-43A6-957C-5E8C86C17008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B06493C-FA0B-499F-BFA4-0ACC2875492D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B06493C-FA0B-499F-BFA4-0ACC2875492D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B06493C-FA0B-499F-BFA4-0ACC2875492D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B06493C-FA0B-499F-BFA4-0ACC2875492D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
