@@ -21,7 +21,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter13_Visitor", "Chapte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter16_Mediator", "Chapter16_Mediator\Chapter16_Mediator.csproj", "{CC743E49-8246-4C87-83D1-0298D805621F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter19_State", "Chapter19_State\Chapter19_State.csproj", "{5A1D3227-5260-401E-B1AD-6B7D2A13CFD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter19_State", "Chapter19_State\Chapter19_State.csproj", "{5A1D3227-5260-401E-B1AD-6B7D2A13CFD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsTestApp", "WinFormsTestApp\WinFormsTestApp.csproj", "{9BB6F05C-1279-4D82-9E9E-673D4435D3E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73BF3716-F9DD-4897-9CCE-3FB603D8FBFE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +76,10 @@ Global
 		{5A1D3227-5260-401E-B1AD-6B7D2A13CFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A1D3227-5260-401E-B1AD-6B7D2A13CFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A1D3227-5260-401E-B1AD-6B7D2A13CFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB6F05C-1279-4D82-9E9E-673D4435D3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB6F05C-1279-4D82-9E9E-673D4435D3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB6F05C-1279-4D82-9E9E-673D4435D3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB6F05C-1279-4D82-9E9E-673D4435D3E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
