@@ -3,6 +3,9 @@ using System.Drawing;
 
 namespace Chapter22_Command.Drawer;
 
+/// <summary>
+/// 点の描画命令を表現するクラス
+/// </summary>
 public class DrawCommand : ICommand
 {
     private IDrawable _drawable;

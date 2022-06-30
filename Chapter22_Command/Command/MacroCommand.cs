@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Chapter22_Command.Command;
 
+/// <summary>
+/// 複数の命令をまとめた命令を表現するクラス
+/// </summary>
 public class MacroCommand : ICommand
 {
     private Stack<ICommand> _commands = new();
