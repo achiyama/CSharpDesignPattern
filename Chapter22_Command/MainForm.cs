@@ -13,6 +13,9 @@ namespace Chapter22_Command
 {
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// 描画履歴
+        /// </summary>
         private MacroCommand _history = new MacroCommand();
 
         public MainForm()
@@ -20,14 +23,16 @@ namespace Chapter22_Command
             InitializeComponent();
         }
 
-        private void drawCanvas1_Load(object sender, EventArgs e)
+        private void DrawCanvas_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void clearBtn_Click(object sender, EventArgs e)
+        private void ClearBtn_Click(object sender, EventArgs e)
         {
-
+            Console.WriteLine("Clearボタンが押されました");
+            _history.Clear();
+            DrawCanvas.Invalidate();
         }
     }
 }
