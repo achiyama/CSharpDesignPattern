@@ -8,8 +8,14 @@ namespace Chapter22_Command.Drawer;
 /// </summary>
 public class DrawCommand : ICommand
 {
+    /// <summary>
+    /// 描画対象
+    /// </summary>
     private IDrawable _drawable;
 
+    /// <summary>
+    /// 描画位置
+    /// </summary>
     private Point _position;
 
     public DrawCommand(IDrawable drawable, Point position)

@@ -27,12 +27,11 @@ namespace Chapter22_Command
         public MainForm()
         {
             InitializeComponent();
-
+            DrawCanvas.SetHistory(_history);
         }
 
         private void ClearBtn_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Clearボタンが押されました");
             _history.Clear();
             // 再描画する
             DrawCanvas.Invalidate();
