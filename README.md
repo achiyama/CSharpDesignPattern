@@ -9,3 +9,4 @@
 * Chapter16 Mediator
 * Chapter17 Decorator
 * Chapter19 State
+* Chapter22 Command
