@@ -1,4 +1,5 @@
 ﻿using Chapter22_Command.Command;
+using Chapter22_Command.Drawer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,13 +19,14 @@ namespace Chapter22_Command
         /// </summary>
         private MacroCommand _history = new MacroCommand();
 
+        /// <summary>
+        /// ドラッグ中
+        /// </summary>
+        private bool _drag = false;
+
         public MainForm()
         {
             InitializeComponent();
-        }
-
-        private void DrawCanvas_Load(object sender, EventArgs e)
-        {
 
         }
 
@@ -32,7 +34,28 @@ namespace Chapter22_Command
         {
             Console.WriteLine("Clearボタンが押されました");
             _history.Clear();
+            // 再描画する
             DrawCanvas.Invalidate();
+        }
+
+        private void DrawCanvas_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (_drag)
+            {
+                var command = new DrawCommand(DrawCanvas, e.Location);
+                command.Execute();
+                _history.Append(command);
+            }
+        }
+
+        private void DrawCanvas_MouseDown(object sender, MouseEventArgs e)
+        {
+            _drag = true;
+        }
+
+        private void DrawCanvas_MouseUp(object sender, MouseEventArgs e)
+        {
+            _drag = false;
         }
     }
 }

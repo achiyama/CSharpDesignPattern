@@ -49,7 +49,9 @@
             this.DrawCanvas.Name = "DrawCanvas";
             this.DrawCanvas.Size = new System.Drawing.Size(400, 400);
             this.DrawCanvas.TabIndex = 1;
-            this.DrawCanvas.Load += new System.EventHandler(this.DrawCanvas_Load);
+            this.DrawCanvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DrawCanvas_MouseDown);
+            this.DrawCanvas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.DrawCanvas_MouseMove);
+            this.DrawCanvas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DrawCanvas_MouseUp);
             // 
             // MainForm
             // 

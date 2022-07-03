@@ -37,6 +37,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.Name = "DrawCanvas";
             this.Size = new System.Drawing.Size(400, 400);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.DrawCanvas_Paint);
             this.ResumeLayout(false);
 
         }
