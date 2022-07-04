@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Chapter07_Builder": {
+      "commandName": "Project",
+      "commandLineArgs": "html"
+    }
+  }
+}

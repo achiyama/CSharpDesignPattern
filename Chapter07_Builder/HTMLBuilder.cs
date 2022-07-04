@@ -29,11 +29,13 @@ namespace Chapter07_Builder
 
         public void MakeString(string str)
         {
+            using var _sw = new StreamWriter(_fileName, true, Encoding.UTF8);
             _sw.WriteLine("<h1>" + str + "</h1>");
         }
 
         public void MakeItems(string[] items)
         {
+            using var _sw = new StreamWriter(_fileName, true, Encoding.UTF8);
             _sw.WriteLine("<ul>");
             for (var i = 0; i < items.Length; i++)
             {
@@ -44,6 +46,7 @@ namespace Chapter07_Builder
 
         public void Close()
         {
+            using var _sw = new StreamWriter(_fileName, true, Encoding.UTF8);
             _sw.WriteLine("</body></html>");
             _sw.Dispose();
         }
