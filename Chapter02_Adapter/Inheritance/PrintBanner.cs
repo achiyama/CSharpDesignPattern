@@ -14,11 +14,11 @@ public class PrintBanner : Banner, IPrint
 
     public void PrintStrong()
     {
-        ShowWithParen();
+        ShowWithAster();
     }
 
     public void PrintWeak()
     {
-        PrintStrong();
+        ShowWithParen();
     }
 }

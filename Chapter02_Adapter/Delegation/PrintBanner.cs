@@ -17,11 +17,11 @@ public class PrintBanner : Print
 
     public override void PrintStrong()
     {
-        _banner.ShowWithParen();
+        _banner.ShowWithAster();
     }
 
     public override void PrintWeak()
     {
-        _banner.ShowWithAster();
+        _banner.ShowWithParen();
     }
 }
