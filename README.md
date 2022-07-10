@@ -1,4 +1,6 @@
 # CSharpDesignPattern
+* Chapter01 Iterator
+* Chapter02 Adapter
 * Chapter03 TemplateMethod
 * Chapter04 FactoryMethod
 * Chapter05 Singleton
