@@ -4,6 +4,7 @@
 * Chapter03 TemplateMethod
 * Chapter04 FactoryMethod
 * Chapter05 Singleton
+* Chapter06 Prototype
 * Chapter07 Builder
 * Chapter09 Bridge
 * Chapter13 Visitor
