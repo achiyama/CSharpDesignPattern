@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter08_AbrstractFactory"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter17_Observer_1", "Chapter17_Observer_1\Chapter17_Observer_1.csproj", "{4B9D4181-5752-4C05-AFCB-31FAD8CE16DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter17_Observer_2", "Chapter17_Observer_2\Chapter17_Observer_2.csproj", "{6AF0F715-D320-4CC6-8C20-C976E51BFAB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{4B9D4181-5752-4C05-AFCB-31FAD8CE16DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B9D4181-5752-4C05-AFCB-31FAD8CE16DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B9D4181-5752-4C05-AFCB-31FAD8CE16DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF0F715-D320-4CC6-8C20-C976E51BFAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF0F715-D320-4CC6-8C20-C976E51BFAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF0F715-D320-4CC6-8C20-C976E51BFAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF0F715-D320-4CC6-8C20-C976E51BFAB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
