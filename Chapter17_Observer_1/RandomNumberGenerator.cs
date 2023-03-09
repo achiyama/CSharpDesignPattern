@@ -1,4 +1,5 @@
 ﻿namespace Chapter17_Observer_1;
+
 public class RandomNumberGenerator : NumberGenerator
 {
     private readonly Random _random = new Random();
